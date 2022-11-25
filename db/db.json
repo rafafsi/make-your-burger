@@ -1,0 +1,187 @@
+{
+  "ingredients": {
+    "breads": [
+      {
+        "id": 1,
+        "type": "Wheat bread"
+      },
+      {
+        "id": 2,
+        "type": "Multigrain"
+      },
+      {
+        "id": 3,
+        "type": "Whole grain"
+      },
+      {
+        "id": 4,
+        "type": "Focaccia"
+      }
+    ],
+    "meats": [
+      {
+        "id": 1,
+        "type": "Chicken"
+      },
+      {
+        "id": 2,
+        "type": "Beef"
+      },
+      {
+        "id": 3,
+        "type": "Pork"
+      },
+      {
+        "id": 4,
+        "type": "Veggie burguer"
+      }
+    ],
+    "optionals": [
+      {
+        "id": 1,
+        "type": "Bacon"
+      },
+      {
+        "id": 2,
+        "type": "Cheddar"
+      },
+      {
+        "id": 3,
+        "type": "Pikles"
+      },
+      {
+        "id": 4,
+        "type": "Olives"
+      },
+      {
+        "id": 4,
+        "type": "Lettuce"
+      },
+      {
+        "id": 4,
+        "type": "Egg"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "type": "Requested"
+    },
+    {
+      "id": 2,
+      "type": "In production"
+    },
+    {
+      "id": 3,
+      "type": "Done"
+    }
+  ],
+  "burgers": [
+    {
+      "customer": "rafa",
+      "bread": "multigrain",
+      "meat": "chicken",
+      "optionals": [],
+      "status": "required",
+      "id": 1
+    },
+    {
+      "customer": "rafa",
+      "bread": "multigrain",
+      "meat": "chicken",
+      "optionals": [
+        "pikles"
+      ],
+      "status": "required",
+      "id": 2
+    },
+    {
+      "customer": "alice",
+      "bread": "wheat bread",
+      "meat": "chicken",
+      "optionals": [
+        "bacon",
+        "pikles",
+        "lettuce",
+        "cheddar",
+        "eggs"
+      ],
+      "status": "required",
+      "id": 3
+    },
+    {
+      "customer": "rafa",
+      "bread": "Whole grain",
+      "meat": "Chicken",
+      "optionals": [
+        "Bacon"
+      ],
+      "status": "required",
+      "id": 4
+    },
+    {
+      "customer": "ra",
+      "bread": "Wheat bread",
+      "meat": "Chicken",
+      "optionals": [],
+      "status": "required",
+      "id": 5
+    },
+    {
+      "customer": "alice",
+      "bread": "Wheat bread",
+      "meat": "Chicken",
+      "optionals": [
+        "Bacon"
+      ],
+      "status": "required",
+      "id": 6
+    },
+    {
+      "customer": "test",
+      "bread": "Multigrain",
+      "meat": "Beef",
+      "optionals": [
+        "Bacon",
+        "Cheddar",
+        "Olives",
+        "Egg"
+      ],
+      "status": "required",
+      "id": 7
+    },
+    {
+      "customer": "r",
+      "bread": "Focaccia",
+      "meat": "Beef",
+      "optionals": [],
+      "status": "required",
+      "id": 8
+    },
+    {
+      "customer": "rad",
+      "bread": "Multigrain",
+      "meat": "",
+      "optionals": [],
+      "status": "required",
+      "id": 9
+    },
+    {
+      "customer": "adf",
+      "bread": "Whole grain",
+      "meat": "Chicken",
+      "optionals": [],
+      "status": "required",
+      "id": 10
+    },
+    {
+      "customer": "ras",
+      "bread": "Wheat bread",
+      "meat": "Chicken",
+      "optionals": [],
+      "status": "required",
+      "id": 11
+    }
+  ]
+}
