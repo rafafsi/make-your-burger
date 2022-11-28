@@ -54,18 +54,19 @@
       </div>
 
       <div class="input-container">
-        <input type="submit" class="submit-btn" value="create my burger" />
+        <Button :type="type" :txt="btn" />
       </div>
     </form>
   </div>
 </template>
 
 <script>
+import Button from "./Button.vue";
 import Message from "./Message.vue";
 
 export default {
   name: "BurgerForm",
-  components: { Message },
+  components: { Message, Button },
   data() {
     return {
       breads: "",
@@ -77,6 +78,8 @@ export default {
       optionals: [],
       status: "",
       msg: null,
+      btn: "Create burger!",
+      type: "submit"
     };
   },
   methods: {

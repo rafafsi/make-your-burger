@@ -79,109 +79,16 @@
   ],
   "burgers": [
     {
-      "customer": "rafa",
-      "bread": "multigrain",
-      "meat": "chicken",
-      "optionals": [],
-      "status": "required",
-      "id": 1
-    },
-    {
-      "customer": "rafa",
-      "bread": "multigrain",
-      "meat": "chicken",
-      "optionals": [
-        "pikles"
-      ],
-      "status": "required",
-      "id": 2
-    },
-    {
-      "customer": "alice",
-      "bread": "wheat bread",
-      "meat": "chicken",
-      "optionals": [
-        "bacon",
-        "pikles",
-        "lettuce",
-        "cheddar",
-        "eggs"
-      ],
-      "status": "required",
-      "id": 3
-    },
-    {
-      "customer": "rafa",
-      "bread": "Whole grain",
-      "meat": "Chicken",
-      "optionals": [
-        "Bacon"
-      ],
-      "status": "required",
-      "id": 4
-    },
-    {
-      "customer": "ra",
-      "bread": "Wheat bread",
-      "meat": "Chicken",
-      "optionals": [],
-      "status": "required",
-      "id": 5
-    },
-    {
-      "customer": "alice",
-      "bread": "Wheat bread",
-      "meat": "Chicken",
-      "optionals": [
-        "Bacon"
-      ],
-      "status": "required",
-      "id": 6
-    },
-    {
-      "customer": "test",
+      "customer": "Rafael",
       "bread": "Multigrain",
       "meat": "Beef",
       "optionals": [
         "Bacon",
         "Cheddar",
-        "Olives",
-        "Egg"
+        "Pikles"
       ],
       "status": "required",
-      "id": 7
-    },
-    {
-      "customer": "r",
-      "bread": "Focaccia",
-      "meat": "Beef",
-      "optionals": [],
-      "status": "required",
-      "id": 8
-    },
-    {
-      "customer": "rad",
-      "bread": "Multigrain",
-      "meat": "",
-      "optionals": [],
-      "status": "required",
-      "id": 9
-    },
-    {
-      "customer": "adf",
-      "bread": "Whole grain",
-      "meat": "Chicken",
-      "optionals": [],
-      "status": "required",
-      "id": 10
-    },
-    {
-      "customer": "ras",
-      "bread": "Wheat bread",
-      "meat": "Chicken",
-      "optionals": [],
-      "status": "required",
-      "id": 11
+      "id": 3
     }
   ]
 }
